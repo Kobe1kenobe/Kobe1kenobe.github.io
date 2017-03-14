@@ -56,7 +56,11 @@ body {
     top:-400px; 
     right: -10px;
        
- 
+     h7 {
+      font-size: 40px;
+      font-family: Amatic SC;
+    } 
+          $("h2").parent().css("background-color", "#F2F2DC");
      
 
     
