@@ -1,89 +1,56 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
-
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
-
-    <html>
-  <head>
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Indie Flower">
-   
-        <html>
-  <head>
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Amatic SC">
-    
-<style>   
-body {
-  background-color: #FFFFDD;
-    border-color: rgb(50, 100, 150);
-    border-width: 20px;
-    border-top-style: solid;
-  border-right-style: dashed;
-  border-bottom-style: solid;
-  border-left-style: dashed;
-}
-  .smaller-image {
-    margin: 50px 50px 350px 50px;
-    width: 275px;
-    border-radius: 50%;
-    
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
   }
-  .white-border {
-    border-color: rgb(150, 120, 50);
-    border-width: 15px;
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
     border-style: solid;
+    border-radius: 50%;
   }
-  h1 {
-  
-    font-size: 100px;
-    font-family: Indie Flower;
-     padding: 30px;
-  }
-    p, h2, h3 {
-       font-size: 30px;
-    font-family: Indie Flower;
-      
-    }
-  h3 {
-    padding: 0px 0px 50px 0px;
-  }
-  .move-image{ 
-    position:relative; 
-    top:-400px; 
-    right: -10px;
-       
-     h7 {
-      font-size: 40px;
-      font-family: Amatic SC;
-    } 
-          $("h2").parent().css("background-color", "#F2F2DC");
-     
 
-    
+  .smaller-image {
+    width: 100px;
+  }
 </style>
- 
 
-<div class="container-fluid">
+<h2 class="red-text">CatPhotoApp</h2>
 
-  <h1 style="color: #EE8844" class="text-center">Kobe is cute</h1>
-  &nbsp;&nbsp;
-<body>
-     <div class="well" style="width: 500px" id="#well">
-       </body>
-    <h2>Born: 18th of December 2013.
-  </h2>
-   
-  <p>  Breed:  <a href='https://en.wikipedia.org/wiki/Pomeranian_(dog)' target="_blank">Pomeranian</a> x <a href='https://en.wikipedia.org/wiki/Maltese_(dog)' target="_blank">Maltese</a> x <a href='https://en.wikipedia.org/wiki/Shih_Tzu' target="_blank">Shih tzu</a></p>
-    
-  <h3>Favourite food: Chicken</h3>
-    </div>
-    
-<img align="right" class="img-responsive smaller-image white-border move-image"   src="https://scontent.fadl1-1.fna.fbcdn.net/v/t1.0-9/10371568_10201137661883283_5410911929252384793_n.jpg?oh=f6a3c69c604e9b62f02cd67bc77e3bcc&oe=591ED39D" alt="Kobe and his toy"></img>
-    </div>
- 
-          <center><h7>Created and coded by Lisa King</h7></center>
-</div>
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
+
+<p>Things cats love:</p>
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality" checked> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
