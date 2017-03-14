@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## My page
 
 You can use the [editor on GitHub](https://github.com/Kobe1kenobe/Kobe1kenobe.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
